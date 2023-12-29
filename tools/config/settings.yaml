@@ -1,0 +1,18 @@
+# .secrets.yaml文件中，提供隐私的配置文件
+# mysql配置
+# --- {
+#   mysql: {
+#     host: localhost,
+#     username: username,
+#     password: password,
+#     port: 3306,
+#   }
+# }
+
+--- {
+
+  log: {
+    path: ../log/tlcw.log,
+    level: DEBUG,
+  }
+}
