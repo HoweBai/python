@@ -1,0 +1,13 @@
+--- {
+  log: {
+    # 日志路径是相对于config目录的
+    path: ../log/template.log,
+    level: DEBUG,
+  },
+  data: {
+    dir: ../data/
+  },
+  model: {
+    dir: ../models/
+  }
+}
